@@ -1,0 +1,68 @@
+html {
+    background: url(http://wallpapercave.com/wp/Y0ipgDj.jpg) ;
+    background-position: center +10px; 
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
+
+.circfs {
+    width: 500px;
+    height: 500px;
+    border-radius: 250px;
+    background-blend-mode: darken;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -250px;
+    margin-left: -250px;
+    border: solid 1px;
+}
+a {color: white;
+text-decoration:none;
+font-size: 18px;}
+#maintitle {
+    position: relative;
+    letter-spacing: 30px;
+    font-size: 50px;
+    top: 50%;
+    left: 50%;
+    margin-left: -210px;
+    margin-top: -100px;
+    text-align: justify;   
+    animation: text 2s 1;
+}
+
+@keyframes text {
+    0%{ display: none;
+    letter-spacing: 300px;}
+
+}
+
+
+
+h2 {
+    position: relative;
+    letter-spacing: 8px;
+    font-size: 20px;
+    top: 50%;
+    left: 50%;
+    margin-left: -200px;
+    margin-top: -20px;
+    text-align: left;    
+}
+
+.container {
+    position: relative;
+    letter-spacing: 5px;
+    font-size: 16px;
+    top: 50%;
+    left: 50%;
+    margin-left: -130px;
+    margin-top: 50px;
+}
+
+a:hover {
+    text-shadow: cyan 0px 0px 5px;
+    font-size: 19px;
+
+
+}

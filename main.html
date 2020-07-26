@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/fourthdiv.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" 
+crossorigin="anonymous">
+
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/9bdc851c3a.js" crossorigin="anonymous"></script>
+<!--<div class="king">-->
+<button onclick="hello()" id="b">click here to make me say helo :)</button> 
+<button style="margin-left: 260px;" id="b"><a href="/welcome.html" > Main Menu</a></button>
+
+<!-- //______________________________________________________________________________ -->
+<div class="main-class fs">
+    <div id="adatok"><h3> Add meg az adataid </h3>
+       <div class="aa">
+        <label id="ss" for="name" >Telefonszám: *</label> <br>
+        <input placeholder="06..." id="name" type="number" required><br>
+        
+        <small id="small" >Adj meg egy telefonszámot amin elérhetünk</small></div> </div>
+
+        <div class="aa">
+        <label id="ss" for="adress" >Rendelési cím: *</label><br>
+        <input placeholder="Város" id="adress" type="text" required><br>
+        <input placeholder="Utca, házszám" id="adress" type="text" required><br>
+        
+
+            <label id="ss" class="ss"> Szeretnél megjegyzést írni?</label> <br>
+            <textarea  id="adress" placeholder="Pl: Elromlott a csengő, hívjatok ha itt vagytok" name="message" rows="3" cols="20"></textarea>
+            <br><small >Írd be az SMS-ben kapott kódod:</small> <br>
+            <input placeholder="" id="name" type="text" required><br>
+</div>
+    </div >
+
+ <!-- //______________________________________________________________________________ -->
+
+
+    <div class="main-class sc" id="adatok"><h3> Rendelj pizzát </h3> <br>
+        <div class="maindiv">
+            <label id="ss" >Válassz egy pizzát: *</label>
+    
+    <select  class="dropdown" id="chosethat">
+        <option class="typeofpizza"  value="0">kattints a választáshoz <span id="spanprice"></span></option>
+        <option class="typeofpizza"  value="800">Margarita <span id="spanprice">800Ft</span></option>
+        <option class="typeofpizza"  value="1200">Négysajtos <span id="spanprice">1200Ft</span></option>
+        <option class="typeofpizza"  value="1050">Sonkás <span id="spanprice">1050Ft</span></option>
+       </select> </div>
+<small>A pizzák alapból paradicsomos alapúak. ha tejfölöset szeretnél, ki kell választanod.</small>
+    <div>
+        <input id="alap" value="0.1" type="checkbox">
+        <label for="cheese">Tejfölös alap</label></div>
+    <button onclick="addpizza()" type="submit" id="kosar" >Pizzát a kosárhoz!</button>
+        <div>
+            <!-- //_________________________________________________________________ -->
+            <label id="ss" >Válassz üdítőt:</label> <br>
+             
+    <select  class="dropdown" id="chooseit">
+            <option class="typeofinni"  value="">kattints a választáshoz </option>
+            <option class="typeofinni"  value="350" >Cola (0,5l) 350Ft</option>
+            <option class="typeofinni"  value="300" >MDew (0,3l) 300Ft</option>
+           </select>
+
+    <button onclick="adddrink()" id="kosar" class="dropdown" >Üdítőt a kosárhoz!</button></div>
+    </div >
+
+<!-- ______________________________________________________________________________ -->
+
+    <div class="main-class trd" id="blank">
+        <!-- <h3>Heti időjárás előrejelzés:</h3> 
+        <p id="ss">Melyik napra vagy kíváncsi?</p>
+        <select class="chooseday" onclick="showtemp()">
+            <option value="1" >Mai nap</option>
+            <option value="2" >Holnap</option>
+            <option value="3" >Holnapután</option>
+        </select>   
+            <h6 id="napifok">várható hőmérséklet: <span id="varhato"></span>
+            </h6> -->
+
+
+    <h3 id="adatok">Kosarad tartalma:</h3>
+
+  <button onclick="order()"  id="kosar">Megrendelem: Összesen <span id="sumprice">0</span> Ft</button>
+  <br> <small>Rendelhető <span id="counter">8</span> darab termék. <br> Összesen maximum 8 db termék.</small>
+            <h4 onclick="mesdel()" id="message"></h4>
+            
+
+    <p onchange="newline()" id="cart"></p>
+
+</div>
+</div>
+<!-- ______________________________________________________________________________ -->
+
+<div class="main-class frth">
+    <h6>Jelenlegi dátum</h6>
+    <span id="sp" class="current">00</span>
+
+    <h6>Karácsonyig hátralévő napok száma</h6>
+    <span id="sp" class="countdown">00</span>
+
+    <h6 >Ennyiszer látogattad meg az oldalt</h6>
+    <small id="" class="visit">Ezt egyenlőre nem tudom megmondani</small>
+
+</div>
+
+
+
+
+
+</head>
+<script src="/js/idojaras.js"></script>
+<script src="/js/main.js"></script>
+<script src="/js/fourthdiv.js"></script>
+<body>
+    
+</body>
+</html>

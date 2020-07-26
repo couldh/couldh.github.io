@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/idojaras.css">
+    <script src="/js/idojaras.js"></script>
+    
+</head>
+<body>
+    <div class="maindiv">
+        <label >Válassz egy pizzát!</label>
+
+<select id="pizza" onclick="showit();">
+  <option value="negysajtos">Négysajtos</option>
+  <option value="sonkas">Sonkás</option>
+  <option value="margarita">Margarita</option>
+</select>
+
+<script>
+    function showit() {
+   let x = document.getElementById("pizza").value;
+   document.getElementById("showpizza").innerHTML = x ;
+
+   if (x=="negysajtos") {
+       document.getElementById("a").style.display= "block";
+       document.getElementById("b").style.display= "none";
+       document.getElementById("c").style.display= "none"; }
+       else if (x=="sonkas") {
+        document.getElementById("a").style.display= "none";
+        document.getElementById("b").style.display= "block";
+        document.getElementById("c").style.display= "none";}
+        else {
+            document.getElementById("a").style.display= "none";
+            document.getElementById("b").style.display= "none";
+            document.getElementById("c").style.display= "block";}
+       }
+</script>
+<p class="as" id="a">Egy négysajtos pizzát választottál</p>
+<p class="as" id="b">Egy sonkás pizzát választottál</p>
+<p class="as" id="c">Egy margarita pizzát választottál</p>
+<p id="showpizza">0</p>
+    </div>
+</body>
+</html>

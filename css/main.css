@@ -1,0 +1,165 @@
+body {font-family: sans-serif;
+background: url(http://wallpapercave.com/wp/Y0ipgDj.jpg) ;
+color: white;
+}
+
+.main-class {
+    color: white;
+    float: left;
+}
+.main-class:hover {
+    box-shadow: white 3px;
+    background-color:  rgba(189, 189, 235, 0.25);
+}
+
+.main-class.fs {
+position: static;
+left: 1%; 
+margin: 40px 10px;
+height: 480px;
+width: 300px;
+border-radius: 10px;
+background-color: rgba(189, 189, 235, 0.20);
+
+  padding: 10px
+}
+.main-class.sc {
+ margin: 40px 10px;
+ height: 480px;
+    width: 300px;
+    border-radius: 10px;
+  background-color: rgb(189, 189, 235, 0.20); 
+  padding: 2%;
+}
+
+.main-class.frth {margin: 40px 10px;
+    height: 480px;
+       width: 300px;
+       border-radius: 10px;
+     background-color: rgb(189, 189, 235, 0.20);
+     padding:2%;
+
+}
+
+
+#cart {
+    text-align: right;
+    white-space: pre-line;
+    font-size: 13px;
+    margin-left: -30px;
+}
+
+.main-class.trd {
+    height: 480px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: rgb(189, 189, 235, 0.20);
+    padding: 2%;
+}
+
+#adatok {
+    display: block;
+}
+
+
+#ss {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-weight: 700;
+margin-left: 5px;}
+
+#adress {border-radius: 10px;
+    width: 250px;
+border-style: solid 1px;
+margin: 2px;
+}
+
+#name {border-radius: 10px;
+    border-style: solid 1px;}
+
+.ss {margin-top: 20px;}
+
+#dropdown {padding: 3px;}
+select#chooseit.dropdown, select#chosethat.dropdown, select.chooseday {border-radius: 10px;}
+
+#spanprice {
+    text-align: left;
+
+}
+#adress:hover  {
+    border-color: lightskyblue;
+    box-shadow: 2px 2px 2px;
+}
+
+#name:hover{
+    border-color: lightskyblue;
+    box-shadow: 2px 2px 2px;
+}
+
+#drinks {
+    margin: 10px
+}
+
+.trd {
+    margin: 40px 10px;
+    width: 270px;
+    border-radius: 10px;
+  background-color: rgb(189, 189, 235);
+  padding: 10px;
+}
+
+#b {
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    border-radius: 20px 3px;
+    padding: 0px 20px;}
+#hello {
+    color: white;
+    font-size: 14px;
+}
+
+#kosar{
+    margin: 3px;
+    border-radius: 10px;}
+#kosar:hover {
+    border-color: turquoise;
+    box-shadow: turquoise 3px 3px 5px;
+}
+
+th {width: 200px;}
+
+button#kosar {
+    margin: 0px;
+    margin-top: 10px;}
+
+
+#number {
+    width: 50px;}
+
+.delbtn {border: none;
+    background: none;
+}
+
+#carter {
+    position:relative;
+    bottom: 30px;
+}
+
+#message {
+    margin-top: 20px;
+    color: rgb(247, 0, 0);
+    font-weight: 800;
+    background-color: white;
+    border-radius: 10px;
+    padding: 4px;
+}
+
+h6 {
+    padding-top: 30px;
+}
+
+#sp {
+    position: relative;
+    font-size: 20px;
+}

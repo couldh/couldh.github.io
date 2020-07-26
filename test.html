@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/test.css">
+    
+    <script>   
+    function ddsel() {
+    let select = document.querySelector("#sel");
+
+    console.log(select.options[select.selectedIndex].innerText);
+    console.log(select.options);}
+    
+      </script>
+
+</head>
+<body>
+    <p>choose something</p>
+
+<select onchange="ddsel()" id="sel">
+    <option name="aa" value="111">present</option>
+    <option name="bb" value="112">past</option>
+    <option name="cc" value="113">future</option>
+</select>
+
+</body>
+</html>
